@@ -25,3 +25,7 @@
 - Only list IPv4 or IPv6 sockets:
 
 `ss {{-4/-6}}`
+
+- List everything with associated processes but do not look up names of IPs/ports
+
+`ss -anp`
